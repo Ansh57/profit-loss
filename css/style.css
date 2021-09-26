@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    color: #fff;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+}
+.profit{
+    color: green;
+}
+.loss{
+    color: red;
+}
+#output{
+    color: green;
+}
+.container{
+    background-color:grey;
+    border: solid;
+    box-shadow: beige;
+    border-radius: 0.5rem;
+    margin: auto 40%;
+   padding: 50px 40px;
+}
+#primary-input{
+    border-radius: 1rem;
+    margin: 32px;
+    padding: 10px;
+
+}
+#quant{
+    border-radius: 1rem;
+    margin: 32px;
+    padding: 10px;
+}
+
+    
+
+#secondary-input{
+   
+    border-radius: 1rem;
+    margin: 32px;
+    padding: 10px;
+}
+
+#calc-btn{
+    background-color: aquamarine;
+    box-shadow: blanchedalmond;
+    border-radius: 0.5rem;
+    margin: auto;
+    padding: 10px
+}
+
+/* footer */
+#footer{
+    margin-top: 20px;
+    padding: 32px;
+}
+.social-link{
+    padding: 12px;
+}
+
+
+@media (max-width:1112px) {
+    
+    .container{
+      text-align: center;
+      margin: auto;
+     
+       padding-right: 10px;
+    }
+}
