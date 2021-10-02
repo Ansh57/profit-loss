@@ -9,8 +9,8 @@ calcBtn.addEventListener('click',userInput);
 
 
 function userInput(){
-    var pValue=primaryValue.value;
-    console.log(pValue);
+    var pValue=Number(primaryValue.value);
+    //console.log(pValue);
     var cValue=Number(currentValue.value);
     var nQuant=Number(numberOfQuant.value);
     calcProfitLoss(pValue,cValue,nQuant);
