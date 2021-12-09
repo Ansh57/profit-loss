@@ -29,6 +29,9 @@ function calcProfitLoss(p,c,n){
     
         printOutput( `Congrats!, the profit is ${profit} and the percent is ${profitPercentage}%`);
       } 
+    else if(p<0||c<0||n<0){
+        printOutput(`Please Try With Positive Numbers`);
+    }
       else {
         printOutput(`Hey,There is no profit And Loss`);
       }
