@@ -26,12 +26,17 @@ function calcProfitLoss(p,c,n){
       } else if (c > p) {
         var profit = (c - p) * n;
         var profitPercentage = (profit / p) * 100;
+          
     
         printOutput( `Congrats!, the profit is ${profit} and the percent is ${profitPercentage}%`);
       } 
-    else if(p<0||c<0||n<0){
-        printOutput(`Please Try With Positive Numbers`);
+     else if(primaryValue.value == "" || numberOfQuant.value == "" || currentValue.value ==""){
+        showOutput(`Input fields cannot be empty`);
     }
+    else if(p<1 || n<1 || c<0){
+        printOutput(`Value should be greater than zero`);
+    }
+    
       else {
         printOutput(`Hey,There is no profit And Loss`);
       }
