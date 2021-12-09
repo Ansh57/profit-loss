@@ -30,12 +30,13 @@ function calcProfitLoss(p,c,n){
     
         printOutput( `Congrats!, the profit is ${profit} and the percent is ${profitPercentage}%`);
       } 
-     else if(primaryValue.value == "" || numberOfQuant.value == "" || currentValue.value ==""){
+     else if(pValue == "" || cValue == "" || nQuant ==""){
         showOutput(`Input fields cannot be empty`);
     }
-    else if(p<1 || n<1 || c<0){
+    else if(p<10|| n<0 || c<0){
         printOutput(`Value should be greater than zero`);
     }
+    
     
       else {
         printOutput(`Hey,There is no profit And Loss`);
